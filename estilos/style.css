@@ -1,0 +1,110 @@
+body{
+    background:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*widht: 70%;*/
+    width: 1400px;
+    margin: 0px auto;
+    border:1px solid black;
+}
+
+header{
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin:0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    background: lightblue;
+    height: 100px;
+    border: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin:10px;
+    line-height: 30px;
+    display: block;
+}
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float:left;
+    width:94.3%;
+    min-height: 500px;
+    padding:40px;
+    background-image: url(https://static2.abc.es/media/natural/2018/10/30/fondo-oceanico-kEv--620x349@abc.jpg);   
+}
+.article{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom:solid 1px#eee ;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-bottom: solid 1px#eee ;
+}   
+.article h2{
+    font-size: 25px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: orange;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+footer{
+    background: black;
+    color:white;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+}
+.jorgito img{
+    display: block;
+    margin:0 auto;
+    height:auto;
+    width: 900px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.contexto{
+    float: left;
+    padding-left: 500px;
+    display: block;
+    color:blueviolet;
+    font-weight:900;
+}
+.renato{
+    float: left;
+    padding-left: 500px;
+    display: block;
+    color:blueviolet;
+    font-weight:900;
+}
+.mirian{
+    float: left;
+    padding-left: 500px;
+    display: block;
+    color:black;
+    padding-right: 300px;
+    padding-bottom: 10px;
+}

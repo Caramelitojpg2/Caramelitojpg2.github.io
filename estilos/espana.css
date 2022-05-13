@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.menu{
+    width: 500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista> li{
+    float:left;
+}
+
+.lista li a{
+    background-color: blue;
+    color: teal;
+    text-decoration:none;
+    padding: 10px 12px;
+    display:block;
+}
+
